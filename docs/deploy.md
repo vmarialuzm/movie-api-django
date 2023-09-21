@@ -30,7 +30,7 @@ Estamos usando mysql por defecto.
 
 [railway.app](https://railway.app/)
 
-## 5. Configuramos las variables de nuestro proyecto
+## 5. Configuramos las variables de nuestro proyecto en .env y tambien en [railway.app](https://railway.app/)
 
 ```python
 MYSQLDATABASE=
