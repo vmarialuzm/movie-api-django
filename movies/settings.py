@@ -87,11 +87,11 @@ WSGI_APPLICATION = 'movies.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': env('MYSQLDATABASE'),
-        'PORT': env('MYSQLPORT'),
-        'USER': env('MYSQLUSER'),
-        'PASSWORD': env('MYSQLPASSWORD'),
-        'HOST': env('MYSQLHOST'),
+        'NAME': 'railway',
+        'PORT': '7110',
+        'USER': 'root',
+        'PASSWORD': 'V4P3tIKHhO4ddiczYGBS',
+        'HOST': 'containers-us-west-62.railway.app',
     }
 }
 
